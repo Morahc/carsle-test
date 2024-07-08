@@ -14,9 +14,9 @@ export const Room = () => {
   }, [id, me, ws]);
 
   return (
-    <div>
-      <>Room id {id}</>
-      <div>
+    <div className="App">
+      <h2>Room id - {id}</h2>
+      <div className="room">
         <VideoPlayer key={"me"} stream={stream} />
 
         {Object.values(peers).map((peer: any, index) => (

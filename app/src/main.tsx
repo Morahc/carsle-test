@@ -4,6 +4,7 @@ import { RoomProvider } from "./context/RoomContext.tsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home.tsx";
 import { Room } from "./pages/Room.tsx";
+import "./App.css"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
