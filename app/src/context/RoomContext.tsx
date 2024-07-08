@@ -6,7 +6,7 @@ import socketIOClient from "socket.io-client";
 import { useNavigate } from "react-router-dom";
 import { peersReducer } from "./peersReducer";
 import { addPeerAction, removePeerAction } from "./peersActions";
-const WS = "http://localhost:5000";
+const WS = "https://carsle-test-2.onrender.com";
 
 export const RoomContext = createContext<null | any>(null);
 
